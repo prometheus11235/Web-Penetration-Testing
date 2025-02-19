@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Check if the input file exists
-INPUT_FILE="/home/goat/HackerOne/Websites/HILTON/CODE/BASH/SCAN_RESULTS_HILTON.txt"
+INPUT_FILE="PATH_TO_INPUT_FILE"
 if [[ ! -f "$INPUT_FILE" ]]; then
   echo "Input file '$INPUT_FILE' not found!"
   exit 1
