@@ -1,6 +1,6 @@
 #!/bin/bash
 
-orginalCSV="/home/goat/Downloads/scopes_for_indrive_at_2024-12-25_22_02_07_UTC.csv"
+orginalCSV="PATH_TO_CSV"
 
 #https://miller.readthedocs.io/en/latest/10min/
 
