@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Check if the input file exists
-INPUT_FILE="/home/goat/HackerOne/Websites/HILTON/SUBFINDER/TARGET_URLS.txt"
+INPUT_FILE="PATH_TO_INPUT_FILE"
 if [[ ! -f "$INPUT_FILE" ]]; then
   echo "Input file '$INPUT_FILE' not found!"
   exit 1
 fi
 
 # Remove SCAN_RESULTS.txt if it exists
-OUTPUT_FILE="/home/goat/HackerOne/Websites/HILTON/CODE/BASH/SCAN_RESULTS.txt"
+OUTPUT_FILE="PATH_TO_OUTPUT_FILE"
 if [[ -f "$OUTPUT_FILE" ]]; then
   rm "$OUTPUT_FILE"
   echo "'$OUTPUT_FILE' was removed!"
