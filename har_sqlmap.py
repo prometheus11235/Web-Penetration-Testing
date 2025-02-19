@@ -1,7 +1,7 @@
 import subprocess
 import re
 
-file_path = '/home/goat/BugBounties/Websites/PNI_Media/har/HAR2Sqlmap/staples.raw'
+file_path = 'PATH_TO_FILE'
 filter_string = 'staples'
 
 def command_activate(command):
