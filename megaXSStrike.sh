@@ -8,7 +8,7 @@ if [[ ! -f "$INPUT_FILE" ]]; then
 fi
 
 # Remove SCAN_RESULTS.txt if it exists
-OUTPUT_FILE="/home/goat/HackerOne/Websites/HILTON/CODE/BASH/XSSTRIKE_RESULTS.log"
+OUTPUT_FILE="PATH_TO_OUTPUT_FILE"
 if [[ -f "$OUTPUT_FILE" ]]; then
   sudo rm "$OUTPUT_FILE"
   echo "'$OUTPUT_FILE' was removed!"
