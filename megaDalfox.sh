@@ -8,7 +8,7 @@ if [[ ! -f "$INPUT_FILE" ]]; then
 fi
 
 # Remove OUTPUT_FILE if it exists
-OUTPUT_FILE="PATH_TO_INPUT_FILE"
+OUTPUT_FILE="PATH_TO_OUTPUT_FILE"
 if [[ -f "$OUTPUT_FILE" ]]; then
   rm "$OUTPUT_FILE"
   echo "'$OUTPUT_FILE' was removed!"
