@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Check if the input file exists
-INPUT_FILE="PATH_TO_FILE"
+INPUT_FILE="PATH_TO_INPUT_FILE"
 if [[ ! -f "$INPUT_FILE" ]]; then
   echo "Input file '$INPUT_FILE' not found!"
   exit 1
 fi
 
 # Remove OUTPUT_FILE if it exists
-OUTPUT_FILE="/home/goat/HackerOne/Websites/HILTON/CODE/BASH/DALFOX_SCAN.txt"
+OUTPUT_FILE="PATH_TO_INPUT_FILE"
 if [[ -f "$OUTPUT_FILE" ]]; then
   rm "$OUTPUT_FILE"
   echo "'$OUTPUT_FILE' was removed!"
